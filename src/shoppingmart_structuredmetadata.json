@@ -1,0 +1,19 @@
+[
+    {
+        "source_url" : "refs/heads/main/src/structured-data/orders.csv",
+        "sink_folder" : "shoppingmart_bronze_orders",
+        "sink_file" : "shoppingmart_orders.csv"
+    },
+    {
+         "source_url" : "refs/heads/main/src/structured-data/customers.csv",
+        "sink_folder" : "shoppingmart_bronze_customers",
+        "sink_file" : "shoppingmart_customers.csv"
+
+    },
+    {
+        "source_url" : "refs/heads/main/src/structured-data/products.csv",
+        "sink_folder" : "shoppingmart_bronze_products",
+        "sink_file" : "shoppingmart_products.csv"
+
+    }
+]
